@@ -66,3 +66,100 @@ nav{
 }
 
 /* banner */
+
+#banner{
+    background: #F5F7FA;
+    padding: 162px 0;
+}
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-content h1{
+    font-size: 64px;
+    font-weight: 600;
+    color: #000;
+}
+.banner-content h1 span{
+    color: #4CAF4F;
+}
+.banner-content p{
+    font-size: 16px;
+    color: #717171;
+    margin: 16px 0 32px;
+}
+.banner-content button{
+    padding: 14px 32px;
+    background: #4CAF4F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* clients */
+#clients{
+    margin-top: 40px;
+}
+.cilent-content{
+    text-align: center;
+}
+.cilent-content h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.cilent-content p{
+    font-size: 16px;
+    color: #717171;
+    margin: 10px 0 40px;
+}
+.client-logos img{
+    margin-right: 128px;
+}
+.client-logos img:last-child{
+    margin-right: 0;
+}
+
+/* community */
+
+#community{
+    margin-top: 60px;
+}
+.community-content{
+    text-align: center;
+}
+.community-content h2{
+    font-size: 36px;
+    font-weight: 600;
+    width: 542px;
+    margin: 0 auto;
+}
+.community-content p{
+    font-size: 16px;
+    color: #717171;
+    margin: 10px 0 40px;
+}
+
+.community-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.community-cards .card{
+    width: 299px;
+    padding: 24px 30px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.community-cards .card h3{
+    font-size: 28px;
+    margin: 16px 0 10px;
+}
+.community-cards .card p{
+    font-size: 14px;
+    color: #717171;
+}
