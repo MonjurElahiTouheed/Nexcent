@@ -163,3 +163,84 @@ nav{
     font-size: 14px;
     color: #717171;
 }
+
+/* unlock */
+
+#unlock{
+    padding: 83px 0;
+    margin-top: 42px;
+}
+.unlock-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.unlock-content{
+    width: 601px;
+} 
+.unlock-content h2{
+    font-size: 36px;
+    font-weight: 600;
+} 
+.unlock-content p{
+    font-size: 14px;
+    color: #717171;
+    margin: 16px 0 32px;
+}
+
+.unlock-content button{
+    padding: 14px 32px;
+    background: #4CAF4F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* achievements */
+
+#achievements{
+    margin-top: 48px;
+    padding: 64px;
+    background: #F5F7FA;
+}
+.achievements-icons{
+    display: grid;
+    grid-template-columns: repeat(2, 255px);
+    column-gap: 25px;
+    row-gap: 45px;
+}
+.achievements-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.achievements-content{
+    width: 420px;
+}
+.achievements-content h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.achievements-content h2 span{
+    color: #4CAF4F;
+}
+.achievements-content p{
+    font-size: 16px;
+}
+
+.icon-wrapper{
+    display: flex;
+    gap: 16px;
+}
+.icon-details h3{
+    font-size: 28px;
+}
+
+.icon-details p{
+    font-size: 16px;
+    color: #717171;
+}
