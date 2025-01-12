@@ -77,6 +77,10 @@ nav{
     align-items: center;
 }
 
+.banner-content{
+    width: 656px;
+}
+
 .banner-content h1{
     font-size: 64px;
     font-weight: 600;
@@ -153,7 +157,7 @@ nav{
     width: 299px;
     padding: 24px 30px;
     text-align: center;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
 }
 .community-cards .card h3{
     font-size: 28px;
@@ -338,18 +342,19 @@ nav{
     left: 27px;
     z-index: 1;
     width: 317px;
-    padding: 16px;
+    padding: 30px 16px;
     text-align: center;
     background: #F5F7FA;
     border: none;
     border-radius: 8px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.4);
 }
 
 .update-card .card-content h4{
     font-size: 20px;
     font-weight: 600;
     color: #717171;
+    line-height: 28px;
 }
 .update-card .card-content a{
     display: flex;
@@ -360,4 +365,115 @@ nav{
     font-weight: 600;
     color: #4CAF4F;
     margin-top: 16px ;
+}
+
+/* demo */
+
+#demo{
+    padding: 32px 0;
+    background: #F5F7FA;
+    margin-top: 170px;
+}
+#demo .demo-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 887px;
+    margin: 0 auto;
+}
+.demo-parent{
+    text-align: center;
+}
+
+#demo h2{
+    font-size: 64px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#demo button{
+    padding: 16px 32px;
+    background: #4CAF4F;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+/* footer */
+footer{
+    background: #263238;
+    padding: 64px 0 75px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.footer-left{
+    width: 25%;
+}
+.footer-left .footer-logo{
+    margin-bottom: 40px;
+}
+.footer-left .copy p{
+    font-size: 14px;
+    color: #fff;
+}
+.footer-left .copy p:last-child{
+    margin-top: 8px;
+}
+.footer-left .social-icons{
+    margin-top: 40px;
+}
+.footer-left .social-icons a{
+    margin-right: 16px;
+}
+.footer-right{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.footer-right h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.footer-right li{
+    margin-top: 12px;
+}
+
+.footer-right a{
+    font-size: 14px;
+    color: #F5F7FA;
+}
+
+.footer-right .mail-input input{
+    padding: 11px 117px 11px 12px;
+    background: #515B60;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    width: 255px;
+}
+
+.footer-right .mail-input input::placeholder{
+    color: #D9DBE1;
+}
+.footer-right .mail-input{
+    position: relative;
+}
+.footer-right .mail-content img{
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
 }
